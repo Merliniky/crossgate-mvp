@@ -1,8 +1,8 @@
 # 魔力宝贝 · 手机单机 MVP
 
-**[点击进入网页试玩](https://merliniky.github.io/crossgate-mvp/)**
+**[点击进入网页试玩](https://merliniky.github.io/crossgate-mvp/?v=0.1.1)**
 
-**[安卓 APK 下载](https://merliniky.github.io/crossgate-mvp/CrossGate-MVP.apk)** · ARM64 / Android 7.0 以上 / v0.1.0 测试包
+**[安卓 APK 下载](https://merliniky.github.io/crossgate-mvp/CrossGate-MVP.apk)** · ARM64 / Android 7.0 以上 / v0.1.1 测试包
 
 这是个人研究用途的单机原型，包含法兰城和芙蕾雅的地图小片段、原版角色及 UI 组件、音乐，以及重新实现的任务、战斗、宠物封印和本地存档。
 
@@ -23,3 +23,7 @@
 战斗数值、任务及捕捉规则为简化的本地实现，并非完整原版或恢复的服务器程序。已完成逻辑、场景和导出资源检查，尚未进行手机真机测试。
 
 美术、UI 和音乐来自大宇官方 CrossGate 客户端，相关权利属于各自权利人；公开历史地图参考来自 [awafer/crossgate](https://github.com/awafer/crossgate/tree/master/gmsv/data/map)。这些素材不因本仓库公开而获得开源授权。本项目不是官方产品。
+
+## v0.1.1 更新
+
+修复战斗过程不明显：人物、宠物和敌人依次出手；完整播放原版攻击动作，命中时扣血并显示伤害，再播放倒地和结算。手机下方会显示当前行动。旧页面用户请关闭旧标签，重新打开上方带版本号的试玩链接，存档格式保持兼容。
